@@ -21,7 +21,7 @@
         e.preventDefault();
         formData.append('file', $('#edtFile')[0].files[0]);//Força o navegador a pegar o aquivo do formulario
         $.ajax({
-            url: '/Home/FileUpload',
+            url: window.location.href.indexOf("Home") !== -1 ? 'FileUpload' : '/Home/FileUpload',
             type: 'POST',
             data: formData,
             success: function (data) {
@@ -62,6 +62,8 @@
     function total(value) {
         $("#lblTotal").text(parseFloat(value).toFixed(2) + " Reais.");
     }
+
+
 
 });
 
