@@ -21,7 +21,7 @@
         e.preventDefault();
         formData.append('file', $('#edtFile')[0].files[0]);//Força o navegador a pegar o aquivo do formulario
         $.ajax({
-            url: window.location.href.indexOf("Home") !== -1 ? 'FileUpload' : '/Home/FileUpload',
+            url: window.location.href.indexOf("Home") !== -1 ? 'FileUpload' : '/Home/FileUpload',//a url em cenário de debug pode sofrer alteraçãoes. 
             type: 'POST',
             data: formData,
             success: function (data) {
