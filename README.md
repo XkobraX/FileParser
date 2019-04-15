@@ -1,5 +1,5 @@
 # FileParser
-#Projeto desenvolvido em asp.net mvc, Vs2k19, .Net Framework 4.6, Entity 6.2.
+#Projeto desenvolvido em Asp.net Mvc, Js, Css, Jquery, Vs2k19, .Net Framework 4.6, Entity 6.2.
 
 #O projeto tem como intuito normalizar dados de um arquivo de texto, salva-los em um bando de dados sql(.mdf) e apresenta-los ao usuário.
 
