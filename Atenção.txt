@@ -1,0 +1,1 @@
+O projeto foi desenvolvido utilizando uma base integrada do tipo .mdf, se faz necessário a atualização da string connection do projeto principal e do projeto de testes.

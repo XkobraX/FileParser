@@ -1,0 +1,136 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ebeff2;
+    font-family: Roboto;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.SiteContent {
+}
+
+.UploadForm {
+}
+
+footer {
+    float: right;
+    margin-right: -80px;
+}
+
+.zone {
+    width: 1000px;
+    height: 350px;
+    text-align: center;
+    background: radial-gradient(ellipse at center,#EB6A5A 0,#c9402f 100%);
+    margin:   auto;
+    padding: 10px;
+    border: 5px dashed white;
+    color: white;
+
+   
+
+}
+
+
+    .zone i {
+        text-align: center;
+        font-size: 8em;
+        color: #fff;
+        margin-top: 1px;
+    }
+
+.selectFile {
+    height: 50px;
+    margin: 1px auto;
+    position: relative;
+    width: 200px;
+}
+
+
+input [type="file"] {
+    border: none;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 12em;
+    height: 2em;
+    color: #EB6A5A;
+  
+}
+
+
+#tbDta {
+    width: 900px;
+    margin: 0 auto;
+    text-align:left;
+  
+}
+    #tbDta tfoot {
+       margin: 0 auto;
+       text-align:center;
+    }
+
+
+.input-container {
+    margin: 1em auto;
+    max-width: 300px;
+    background-color: #EDEDED;
+    border: 1px solid #DFDFDF;
+    border-radius: 15px;
+    color: #EB6A5A;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.file-info {
+    font-size: 0.9em;
+}
+
+.browse-btn {
+    background: #03A595;
+    color: #fff;
+    min-height: 35px;
+    padding: 10px;
+    border: none;
+    margin-top:10px;
+    
+}
+
+    .browse-btn:hover {
+        background: #4ec0b4;
+    }
+
+@media (max-width: 300px) {
+    button {
+        width: 100%;
+       
+    }
+
+    .file-info {
+        display: block;
+        
+    }
+}

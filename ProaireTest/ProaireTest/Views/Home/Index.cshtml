@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "File Upload";
+}
+<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="~/Scripts/Upload.js"></script>
+<link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+<div class="container">
+
+    <div class="row">
+        <div class="zone">
+            <i class="fa fa-cloud-upload"></i>
+            <div>Selecione</div>
+            <div class="selectFile">
+                <form id="formulario" method="post" enctype="multipart/form-data">
+                    <div class="input-container">
+                        <input type="file" id="edtFile">
+                        <button class="browse-btn">
+                           Selecinar Arquivo
+                        </button>
+                        <span class="file-info">Upload a file</span>
+                    </div>
+                    <button>Enviar</button>
+                </form>
+                <p>File size limit : 1.00 MB</p>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <table class="table" id="tbDta">
+            <thead>
+                <tr>
+                    <th scope="col">Comprador</th>
+                    <th scope="col">Descricão</th>
+                    <th scope="col">Preço</th>
+                    <th scope="col">Quantidade</th>
+                    <th scope="col">Endereço</th>
+                    <th scope="col">Fornecedor</th>
+                </tr>
+            </thead>
+            <tbody />
+            <tfoot>
+                <tr>
+                    <td colspan="6">  <span class="rodapeTotal"><label>Total: </label> <label id="lblTotal" />0.00</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
